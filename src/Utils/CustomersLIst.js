@@ -1,5 +1,5 @@
 export const CustomersList = () => {
-  return fetch("https://intense-tor-76305.herokuapp.com/merchants")
+  return fetch("https://nex-g.herokuapp.com/")
     .then((res) => res.json())
     .then((res) => {
       return SortInDescendingOrderByBidAmount(res);
