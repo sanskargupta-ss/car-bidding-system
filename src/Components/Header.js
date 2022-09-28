@@ -25,7 +25,7 @@ function Header() {
   };
   return (
     <header className="sticky top-0 w-full z-40 py-3 h-14 dark:bg-gray-800 bg-white shadow-md overflow-hidden">
-      <div className="flex justify-between px-2 dark:text-green-400 text-green-500">
+      <div className="flex justify-between px-2 dark:text-blue-400 text-green-500">
         <div className="flex flex-shrink-0 justify-between">
           <button
             type="button"
@@ -40,7 +40,7 @@ function Header() {
         </div>
         <div className="item-center flex flex-shrink-0 justify-between space-x-6">
           <a
-            href="https://github.com/Rajesh-Royal/car-bidding-system-react"
+            href="https://github.com/sanskargupta-ss/Car-bidding-application-NextGen-IOT"
             target="_blank"
             className="focus:shadow-outline-green p-1 rounded-md focus:outline-none"
             aria-label="github repository link"
